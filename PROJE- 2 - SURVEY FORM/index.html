@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarusway</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet"
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+
+<body>
+    <h1 id="title">Clarusway </h1>
+    
+    
+    <!-- en dışa kapsayıcı bir div ekliyorum -->
+
+
+    <div id="container">        
+
+        <!--  semanticlere uygun olsun diye bunun  yerine div de kullanabiliriz. -->
+        <header id="header">
+            
+            <h1 id="subtitle"> Survey Form <br> <span id="parag1">Thank you for taking the time to help us improve the platform</span></h1>
+            <h2 id="parag1"> <b> </b></h2>
+        </header>
+        
+        <!-- semanticleri kullanma adına section kullanıyoruz. div de kullanabiliriz. -->
+        <section id="clarusway">
+        
+        <!-- section altına direk formu yazabilriz.default get methodu kullanırız action xxx.html -->
+        <form action="result.html" method="get">
+            
+            <!-- her bir inpu alanını inpu içine gömceğiz. -->
+            <div class="group">
+                
+                
+                <label for="name">Name</label>
+                <input type="text" name="name" id="Name" placeholder="Enter your name" required>
+
+                <br>
+
+                <label for="surname">Surname</label>
+                <input type="text" id="surname" name="Surname" placeholder="Enter your surname" required>
+
+                <br>
+
+                <label for="email">Email</label>
+                <input type="Email" id="email" name="E-mail" placeholder="user@clarusway.com" required>
+            </div>
+
+                <br>
+
+                <label class="comnt">Which option best describes your current role?</label>
+
+                <div class="group">
+                <select name="Role" id="dropdown" class="form-control">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="full-time job">Full Time Job</option>
+                    <option value="part-time job">Part Time Job</option>
+                    <option value="learner">Full Time Learner</option>
+                    <option disabled selected value="select" selected>select current role  </option>
+                    
+                </select>
+                </div>
+                <br>
+
+                <label class="comnt">Would you recommend Clarusway to a friend?</label>
+
+
+                <div class="group">
+                    <label for="first">
+                        <input type="radio" name="Advice" value="definetly" id="first" checked> Definetly, Yes
+                    </label> 
+                    
+                    
+                    <label for="second"> 
+                        <input type="radio" name="Advice" value="maybe" id="second" >Maybe
+                    </label>
+
+                    <label for="third"> 
+                        <input type="radio" name="Advice" value="not sure" id="third" >Not sure
+                    </label>
+
+                    <label for="fourth"> 
+                        <input type="radio" name="Advice" value="definetly no" id="fourth" >Definetly, No
+                    </label>
+
+
+                </div>
+
+                <label class="comnt">What is your favorite feature of Clarusway?</label>
+
+
+                <div class="group">
+                    <select name="content" id="dropdown2" >
+                        <option name="favorite feature" value="" selected>Select an option</option>
+                        <option name="favorite feature" value="Courses">Courses</option>
+                        <option name="favorite feature" value="Projects">Projects</option>
+                        <option name="favorite feature" value="Community">Community</option>
+                        <option name="favorite feature" value="Mentors">Mentors</option>
+                    </select>    
+                </div>        
+                    
+                    <br>
+                    <label class="comnt">What would you like to see improved? (Check all that apply)</label>
+
+                <div class="group">
+                        <label for="checkfirst">
+                            <input  name="improve" value="front-end" type="checkbox" id="checkfirst">Front-end Projects
+                        </label>
+
+                        <label for="check2">
+                            <input  name="improve" value="back-end" type="checkbox" id="check2"> Back-end Projects
+                        </label>
+
+                        <label for="check3">
+                            <input  name="improve" value="data-science" type="checkbox" id="check3">Data Science
+                        </label>
+
+                        <label for="check4">
+                            <input name="improve"  value="additional courses" type="checkbox" id="check4">Additional Courses
+                        </label>
+
+                </div>
+
+                <div class="group">
+                    <label for="comment" class="comnt"> Any comments or suggestions?</label>
+
+                    <textarea name="comment" id="comment" cols="30" rows="3" 
+                    placeholder="Enter your comment here...Thanks for your comments...."></textarea>
+                    <br>
+                </div>
+
+                <div class="buttontwo">
+                    <button id="button" type="submit" value="submit">Submit</button>
+                </div>
+
+            
+
+
+        </form>
+    </section>
+    </div>
+</body>
+</html>

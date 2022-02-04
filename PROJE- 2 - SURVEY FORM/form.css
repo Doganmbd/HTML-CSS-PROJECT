@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px; 
+    /* box-sizing: border-box; */
+}
+
+body {
+    /* font-size: 1.5rem; */
+    
+    /* font-weight: 10px;
+    line-height: 1.5; */
+    background-image: url(./indir.jpg);   /*body kaplayan bir background var resim */
+    color: white;
+}
+
+#container {
+    width: 828px;
+    /*height: 1240px;*/  /* normalde kullanılmaz otomatik ayarlar */
+    background-color: rgba(216, 77, 163, 0.4);  /* şeffaflık veriyoruz */
+    margin: auto;                                 /* kendisini ortalaması için margin auto */
+    border-radius: 50px;
+    
+    
+}
+
+#title {
+    margin: auto;
+    text-align: center;
+    padding: 0 50px 0px 130px;
+    font-size: 4rem;                /* genelde rem ve iem veririz  */
+    
+    /* line-height: 1.2; */
+    font-family: 'Pacifico', cursive;   /* yazı tipini belirler.*/
+    
+    letter-spacing: 100px;             /* harfler arası boşluk bırakır.*/
+    border-radius: 50px ;               /* köşeleri yuvarlatır. */
+    
+    /* box-shadow: 10px 10px 4px #000; */
+    text-shadow: 14px 10px 5px rgb(8, 5, 5);
+    
+    color: rgb(255, 255, 255);
+    /* padding:35px 55px 35px 155px; */
+    /* display: table; */
+    background: linear-gradient(0deg,rgb(248, 243, 246),rgba(70, 5, 45, 1));
+}
+
+#header {
+    text-align: center;
+}
+#subtitle {
+    text-align: center;
+    height:80px;
+    width: 828px;
+    background: #4d3f47;
+    color: rgb(63, 3, 3);
+    border-radius: 50px;
+    background: linear-gradient(rgb(255, 255, 255),rgba(70, 5, 45, 1));
+}
+#comment {
+    resize: none;
+}
+
+#clarusway {
+    width: 500px;
+    background-color: rgba(0, 0,0, 0.9);
+    margin: auto;
+    padding: 20px 30px;
+    border-radius: 50px;
+    
+
+}
+
+#Name,
+#surname,
+#email,
+#dropdown,
+#comment, 
+#dropdown2{
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    
+    
+    
+}
+
+
+
+
+#button {
+    width: 300px;
+    height: 40px;
+
+    background-color: white;
+    color: rgb(255, 0, 200);
+    font-size: x-large;
+    border: none;           /* butonun kenarında ekstra border varmış gibi gözüküyor onu yok eder */
+    cursor: pointer;       /* üzerine geldiğinde el işareti çıkarır*/
+    border-radius: 50px;
+    text-align: center;
+
+}
+
+.buttontwo {
+    margin: auto;   /* genişliği olmadığı için şu an ortalamaz. */
+    width: 300px;
+    padding: 10px;
+     
+    
+}
+
+
+#button:hover{
+    background-color: rgb(173, 8, 138);
+    color: rgb(235, 223, 223);
+}
+
+
+#parag1 {
+    /* text-align: center; */
+    color: white;
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 20px;
+}
+
+.comnt {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    margin-top: 10px;
+    margin-right: 0px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    
+
+}  
+
+label {
+    display: flex;
+    margin-top: 10px;
+    /* align-items: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px; */
+}
+
+
+
+
+
+
+
