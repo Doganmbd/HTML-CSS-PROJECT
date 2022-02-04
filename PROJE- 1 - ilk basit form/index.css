@@ -1,0 +1,89 @@
+/*div{
+    margin: 100px 700px 100px 700px;
+} */
+
+ h1 {
+        font-family: 'Sacramento', cursive;
+        display: block;
+        font-weight: bold;
+        text-align: center;
+        
+        text-decoration: underline;
+        background-color: rgb(224, 246, 246);
+        padding-bottom: 15px;
+        
+        margin: 10px 0px 10px 0px;
+        
+        text-transform: capitalize;
+        letter-spacing: 45px;
+        word-spacing: 20px;
+        text-shadow: 1px 2px rgb(240, 119, 135);
+        font-weight: bold;
+        font-style: italic;
+        font-variant: small-caps;
+        
+        
+
+        
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+p {
+    font-weight: bold;
+    font-variant: small-caps;}
+
+
+
+a:link {
+    color: lawngreen;
+    
+}
+
+a:visited {
+    color: rgb(231, 231, 231);
+}
+
+a:hover {
+    color: red;
+}
+
+a:active{
+    color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}

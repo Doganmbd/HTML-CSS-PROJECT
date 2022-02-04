@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <a href="http://www.google.com.tr">Arama Motoru</a>
+    <a href="https://lms.clarusway.com/mod/lesson/view.php?id=135&forceview=1">LMS</a>
+ 
+    
+  </head>
+  <body>
+    
+    <h1 > Who are you ? </h1>
+    <p class="big">who are you</p>
+    <div>
+      <form action="" method="post" enctype="multipart/form-data">
+        <fieldset>
+          <legend><b>Contract Confirmation</b></legend>
+
+          <input type="checkbox" id="accept" name="accept" value="1" required />
+          <label for="accept" style="color: red"
+            >I confirm the accuracy of the above information. *</label
+          >
+
+          <br /><br />
+
+          <input
+            type="checkbox"
+            id="accept2"
+            name="accept2"
+            value="1"
+            required
+          />
+          <label for="accept2" style="color: red"
+            >I have read and accept the agreement. *</label
+          >
+          <br /><br />
+
+          <input type="submit" id="btn" name="btn" value="Save" />
+          <input type="reset" id="btn2" name="btn2" value="Reset" />
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend><b> Personal Information</b></legend>
+
+          <table>
+            <tr>
+              <td id="Name"><label for="name">Name :</label> </td>
+              
+              <td>
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Please enter your name"
+                  required
+                />
+                <b style="color: red">*</b>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="surname">Surname : </label></td>
+              <td>
+                <input
+                  type="text"
+                  name="surname"
+                  id="surname"
+                  placeholder="Please enter your surname"
+                  required
+                />
+                <b style="color: red">*</b>
+              </td>
+            </tr>
+
+            <tr>
+              <td> <label for="age">Age :</label> </td>
+              <td>
+                <input
+                  type="number"
+                  min="18"
+                  max="100"
+                  name="age"
+                  id="age"
+                  placeholder=""
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="email">E-Mail :</label></td>
+              <td>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="example@example.com"
+                  required
+                />
+                <b style="color: red">*</b>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="number">Phone :</label></td>
+              <td>+
+                <input
+                  type="number"
+                  min="01"
+                  max="99"
+                  id="number"
+                  
+                  placeholder="XX"
+                  required
+                />
+                
+              
+              
+                <input
+                  type="tel"
+                  id="telephone"
+                  
+                  placeholder="XXX--XXX--XXXX"
+                  required
+                />
+                
+              
+            </tr>
+
+            <tr>
+              <td><label for="linkedin">LinkedIn :</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="linkedin"
+                  id="linkedin"
+                  
+                />
+                
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="github">GitHub :</label></td>
+              <td>
+                <input
+                  type="text"
+                  name="github"
+                  id="github"
+                  
+                  
+                />
+                
+              </td>
+            </tr>
+
+            <tr>
+              <td>Upload CV :</td>
+              <td>
+                <input type="file" name="file" id="file" value="Choose file" />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Gender : </td>
+
+              <td>
+                <label for="male">Male
+
+                  <input type="radio" name="male" id="male" />
+                </label>
+
+                
+                <label for="female">Female
+                <input type="radio" name="male" id="female" />
+                </label>
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <div>
+          <br>
+
+        <fieldset id="education">
+          <legend><b>Education</b> </legend>
+          <tr>
+
+            <td>
+
+            </td>
+          </tr>
+
+
+
+
+        </fieldset>
+      </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+body{
+    background-image: url(./background_image.jpg);
+}
+#container {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 20px 50px;
+}
+#header{
+    text-align: center;
+    color: white;
+}
+.head{
+    font-family: "Sigmar One",cursive;
+}
+#head-span{
+    color: red;
+}
+#main{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 330px;
+    margin: auto;
+}
+label{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 4% ;
+    padding-right: 25%;
+}
+form{
+    margin: 60px 40px 70px 40px;
+}
+
+select{
+    margin: 10px 0px 10px 0px ;
+    padding-right: 130px;
+    padding-top: 5px;
+    padding-bottom: 5px; }
+
+
+textarea {
+    margin-top: 10px;
+}
+
+#btn {
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
