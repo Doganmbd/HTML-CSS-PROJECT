@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/* birşeyler daha 0 dı. */
+html {
+  background: url(./images/appicon5.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0px auto;
+  padding: 0px;
+}
+
+#icon {
+  height: 30px;
+  width: 30px;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 15px;
+  margin-right: 30px;
+}
+
+.top a {
+  color: #0a0909;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 25px;
+  margin-right: 20px;
+}
+
+.top a:hover {
+  text-decoration: underline;
+}
+
+.top img {
+  width: 30px;
+  padding: 5px;
+  margin: auto 15px -15px -5px;
+}
+
+.top img:hover {
+  opacity: 0.3;
+}
+
+.top button {
+  background: #1a73e8;
+  border: 1px solid transparent;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+}
+
+.top button:hover {
+  background-color: #4285f4;
+  border: 3px solid #4285f4;
+}
+
+.top1 {
+  padding-left: 15px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.top2 {
+  padding-right: 15px;
+}
+
+#middle {
+  margin-top: 90px;
+}
+
+#middle .logo {
+  text-align: center;
+}
+
+#middle .middle_search {
+  width: 480px;
+  margin: 0px auto;
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#middle .magnif {
+  width: 25px;
+  position: absolute;
+  top: 10px;
+  left: 14px;
+}
+
+#middle .search {
+  display: block;
+  border: 1px solid #e6dfdf;
+  border-radius: 25px;
+  color: rgba(206, 197, 197, 0.9);
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  outline: auto;
+}
+
+#middle .search:hover {
+  -webkit-box-shadow: 2px 2px 10px grey;
+          box-shadow: 2px 2px 10px grey;
+}
+
+#middle .microphone {
+  width: 18px;
+  position: absolute;
+  top: 10px;
+  right: -5px;
+}
+
+#middle .microphone:hover {
+  opacity: 0.8;
+}
+
+#middle .button {
+  border: 1px solid transparent;
+  padding: 9px 15px;
+  color: black;
+  font-size: 14px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-right: -20px;
+  margin-left: 40px;
+  margin-top: 28px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#middle button:hover {
+  border: 1px solid #aaa;
+}
+
+#middle p {
+  margin-right: -60px;
+}
+
+#path {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0px 0;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#path a {
+  text-decoration: none;
+  color: rgb(6, 6, 7);
+}
+
+#path .site {
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+#path img {
+  width: 25px;
+  text-align: center;
+}
+
+#path .box {
+  margin: 0px 30px;
+  background-color: #fdf3f3;
+  width: 1.5rem;
+  height: 1.5rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 2rem;
+}
+
+#path .box:hover {
+  -webkit-transform: scale(1.9);
+          transform: scale(1.9);
+  background-color: #faf9fb;
+  /* z-index: 1; */
+}
+
+footer {
+  background-color: #f2f2f2;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 70px;
+}
+
+footer h4 {
+  color: rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 1px;
+  font-weight: 100px;
+  padding-left: 30px;
+}
+
+footer a {
+  color: grey;
+  display: inline-block;
+  padding: 1px 12px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .sub_information {
+  border-top: 3px solid #ebe7e7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .sub_information .sub1 {
+  padding-left: 20px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+footer .sub_information .sub2 {
+  padding-right: 20px;
+}
+/*# sourceMappingURL=google.css.map */

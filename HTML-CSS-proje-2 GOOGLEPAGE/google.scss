@@ -1,0 +1,340 @@
+/* birşeyler daha 0 dı. */
+
+html{
+    // background-image: url('./images/background.png');
+    
+    background: url(./images/appicon5.png) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    margin: 0px auto;
+    padding: 0px;
+    
+    
+    // box-sizing: border-box;
+}
+//  }
+
+ #icon {
+    height: 30px;
+    width: 30px;
+    
+    }
+
+
+
+// #container {
+//     flex-wrap: nowrap;
+// }
+
+.top {
+        
+    display: flex;          //öğeler esnek yapar flex
+    align-items: center;    //flex de dikey hizalama verir.
+    justify-content: flex-end;    // flex içince yatayda hizalama verir.
+    margin-top: 15px;
+    margin-right: 30px;
+
+
+    a {
+        color: rgb(10, 9, 9);                   // renk
+        text-decoration: none;          // altındaki çizgiyi kaldırır.
+        display: inline-block;          // blok tipi gibi davranıp aynı satırda bulunmaları için
+        line-height: 25px;              // satırlar arasındaki yükseklik
+        margin-right: 20px;
+        // font-size: 15px;                   // istersek yazı boyutunu ayarlayabiliriz.
+    
+    }
+
+    a:hover {
+        text-decoration: underline;    // fare ile üzerine geldiğimde alt çizgi çıkar.
+        
+    }
+
+    img {
+        
+        width: 30px;                //genişlik
+        padding: 5px;
+        margin: auto 15px -15px -5px;           //tarayıcı boşlukları otomatik ayarlayarak 2 yönden 7 px verir.
+        
+    }
+    
+    img:hover {
+        opacity: 0.3;               // fare ile üzerine geldiğimde saydamlaşıyor.
+    }
+
+    button {
+        background: #1a73e8;                     // arka plan rengi
+        border: 1px solid transparent;              // sınır çizgisi
+        color: white;
+        width: 100px;                        // genişlik
+        height: 30px;                       //yükeseklik
+        border-radius: 8px;
+        
+        
+    }
+    button:hover {
+        background-color: #4285f4;         // fare ile geldiğinde renk değiştiriyor.
+        border: 3px solid #4285f4;
+    }
+
+    
+}
+
+.top1 {
+
+    padding-left: 15px;
+    
+    flex: 1;
+    
+    }
+
+.top2 {
+
+    padding-right: 15px;
+    
+
+}
+
+
+#middle {
+    margin-top: 90px;
+    // text-align: center;
+
+    
+
+    .logo {
+        text-align: center;
+        // margin-top: -50px;
+        // ekleme yapabilirm
+    }
+
+    .middle_search{
+        width: 480px;                   //genişlik
+        margin: 0px auto;
+        position: relative;             //normal olması gereken pozisyona göre konumu belirler
+        margin-top: 20px;
+        // margin-right: 470px;
+        text-align: center;             //metni ortalar
+        }
+
+        .magnif{
+            width: 25px;
+        
+            position: absolute;  //koordinat belirledim
+            top: 10px;              // koordinat yeri
+            left: 14px;      // koordinat yeri
+        
+
+        }
+
+        .search {
+            display: block;
+            border: 1px solid rgb(230, 223, 223);
+            border-radius: 25px;
+            color: rgba(206, 197, 197, 0.9);
+            font-size: 16px;
+            padding: 10px;
+            // padding-left: 30px;
+            width: 100%;
+            outline: auto;          // normalde basınca dikdörtgen şeklinde bir şekil çıkıyordu . kaldırdım
+
+        }
+
+        .search:hover {
+            box-shadow: 2px 2px 10px grey;
+        }
+
+
+
+        .microphone{
+            width: 18px;
+            position: absolute;
+            top: 10px;
+            right: -5px;
+
+
+
+
+        }
+        .microphone:hover {
+            opacity: 0.8;
+        }
+
+        .button{
+            border: 1px solid transparent;
+            padding: 9px 15px;
+            color: black;
+            font-size: 14px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-right: -20px;
+            margin-left: 40px;
+            margin-top: 28px;
+            margin-bottom: 10px;
+            cursor: pointer;        // fare imleci normalde el işareti oluyor.
+    }
+
+        button:hover {
+            border: 1px solid #aaa;
+    }
+
+        p{
+            margin-right: -60px;
+            
+    }
+
+
+        
+    }    
+
+#path  {
+    
+    
+        // // display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding:0px 0;
+        text-decoration: none;
+        // width: 100%;
+        // color: black;
+        
+        // font-size: 0.8rem;
+        // // margin: auto ;
+        // // text-align: center;
+        // // padding-top: 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+        a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .site{
+
+            width: 100%;
+            // display: flex;
+            text-align: center;
+            margin: auto;
+            
+            // padding-top: 1rem;
+        
+    }
+        img{
+            // text-align: center;
+        
+            width: 25px;
+            text-align: center;
+        
+        
+        
+        
+    }
+
+    // div {
+    //     float:left
+        
+    // }
+
+    
+    .box{
+            
+            
+            margin: 0px 30px;                           // sağdan ve soldan 30 luk boşluk var.
+        
+            background-color: rgb(253, 243, 243);
+            width: 1.5rem;
+            height: 1.5rem;
+            transition: 0.5s;
+            padding: 10px;
+            // // margin-left: 430px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            // // margin: 1rem auto 0 auto;
+            border-radius: 2rem;
+            
+    }
+    .box:hover {
+        transform: scale(1.9);                      // 1.0 olsaydı aynı kalırdı. 1.9 oranında büyüyecek.
+        background-color: rgb(250, 249, 251);
+        z-index: 100;
+        
+
+    }
+}
+    // #path a > div {
+    //     width: 7em;
+    //     height: 6em;
+    // }
+
+
+
+
+
+
+
+
+footer {
+    background-color: #f2f2f2;
+    position: fixed;    // sabit tarayıcıya göre hareket etmez
+    bottom: 0px;
+    width: 100%;
+    height: 70px;
+
+    h4{
+        color: rgba(0,0,0,0.3);
+        // margin-bottom: 10px;
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 1px;  // satır arası yükseklik
+        font-weight: 100px;   //yazı kalınlığı
+        padding-left: 30px;
+        // border: 1px solid rgb(228, 222, 222);
+    }
+
+    a{
+        color: grey;
+        display: inline-block;  
+        padding: 1px 12px;
+        font-size: 17px;
+        text-decoration: none;
+        
+    }
+
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .sub_information{
+        border-top: 3px solid rgb(235, 231, 231);
+        display: flex;
+        
+        
+
+        .sub1{
+            padding-left: 20px;
+            flex: 1;    // arasındaki boşluk
+            
+        }
+        
+        .sub2{
+            padding-right: 20px;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
