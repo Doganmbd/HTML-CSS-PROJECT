@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Ubuntu');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: ; */
+}
+
+.right{
+  position: absolute;
+  background-color: #f8e8e8;
+  border-radius: 1rem;
+  right: 15%;
+  
+}
+
+.product{
+  margin: 1rem 1rem 0 1rem;
+  display: flex;
+  height: 9rem;
+}
+
+.image img{
+  width: 8rem;
+  margin: 0 1rem 2rem 0;
+  border-radius: 1rem;
+
+}
+
+.p-info>h4{
+  margin: 0.5rem 0;
+  color: gray;
+
+}
+
+.new-price{
+  color: orange;
+}
+.old-price{
+  color: #828282;
+  text-decoration:line-through;
+  font-weight: 400;
+}
+
+.inc-dis{
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 1rem;
+  width: 7rem;
+  height: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.minus,.plus{
+  border: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 2px;
+  position: relative;
+  
+}
+.inc-dis> button{
+  background-color: rgb(223, 219, 219);
+  text-align: center;
+  cursor: pointer;
+}
+
+.total{
+  margin:1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total>p{
+  font-weight: 300;
+}
+hr{
+  margin: 1rem;
+}
+
+footer{
+  text-align: center;
+  margin-top: 2rem;
+}
+.continue{
+  background-color: rgb(179, 117, 2);
+  color: white;
+  padding: 1rem ;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+ 
