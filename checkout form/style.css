@@ -13,7 +13,7 @@ header{
 }
 
 main {
-  width:60%;
+  width:70%;
   margin: auto;
   display: flex;
   justify-content: space-between;      /* kenarları 0 olacak şekilde köşeye yaslarım */
@@ -143,7 +143,9 @@ main {
   margin:1rem;
   display: flex;
   justify-content: space-between;
+
 }
+
 
 .total>p{
   font-weight: 300;
