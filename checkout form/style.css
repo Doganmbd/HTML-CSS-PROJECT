@@ -4,36 +4,96 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: ; */
+    font-family: 'Montserrat', sans-serif;
 }
 header{
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 1rem 0 2rem 0 ;
 
 }
-.container{
-  width: 20px;
-  margin: auto;
+
+main {
+  /* width:100%; */
+  /* margin: auto; */
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;      /* kenarları 0 olacak şekilde köşeye yaslarım */
+}
+
+.information  {
+  
+  width: 50%;
+}
+.form-top > h3,.form-middle>h3{
+  padding-bottom:1rem ;
   
 }
-/* 
-.right{
-  position: absolute;
-  background-color: #f8e8e8;
-  border-radius: 1rem;
-  right: 15%;
+.label{
+  margin: 10px 0;
+  color: #828282;
+  font-size: 12px;
+
+}
+.iclass{
+  position:relative;
+}
+
+.iclass input,.iclass select{
+  border: 1px solid #828282;
+  padding: 8px 5px 8px 35px;
   
+  font-size: 14px;
+  border-radius: 5px;
+  width: 100%;
+  margin: 0.5rem 0;
+  
+}
+.iclass input::placeholder,.iclass select::placeholder{
+  color: #828282;
+}
+.iclass select{
+  color: black;
+  font-weight: 500;
+}
+.information .fas{
+  position: absolute;
+  top: 35%;
+  left: 12px;
+  color: #828282;
+}
+
+.f-check{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.form-middle{
+  margin-top: 3rem;
+}
+
+.form-bottom{
+  display: flex;
+}
+
+.f-post{
+  flex: 2;
+  margin-left: 1%;
 }
 
 .product{
+  position: absolute;
+  background-color: #EEEEEE;
+  border-radius: 1rem;
+  left: 55%;
+  
+}
+
+.material{
   margin: 1rem 1rem 0 1rem;
   display: flex;
   height: 9rem;
 }
-
-.image img{
+.img img{
   width: 8rem;
   margin: 0 1rem 2rem 0;
   border-radius: 1rem;
@@ -46,16 +106,16 @@ header{
 
 }
 
-.new-price{
+.first-price{
   color: orange;
 }
-.old-price{
+.second-price{
   color: #828282;
   text-decoration:line-through;
   font-weight: 400;
 }
 
-.inc-dis{
+.time{
   border: 1px solid black;
   border-radius: 4px;
   margin-top: 1rem;
@@ -74,7 +134,7 @@ header{
   position: relative;
   
 }
-.inc-dis> button{
+.time > button{
   background-color: rgb(223, 219, 219);
   text-align: center;
   cursor: pointer;
@@ -93,16 +153,85 @@ hr{
   margin: 1rem;
 }
 
-footer{
+/* footer{
   text-align: center;
   margin-top: 2rem;
-}
-.continue{
-  background-color: rgb(179, 117, 2);
+} */
+#form-button{
+  background-color: orange;
   color: white;
   padding: 1rem ;
   border: none;
   border-radius: 1rem;
   cursor: pointer;
+  
+
 }
-  */
+
+@media screen and (max-width:575px) {
+  *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+      
+  }
+  main{
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-direction:column-reverse;
+  }
+  .survey{
+      width: 100%;
+      margin-bottom: 2rem;
+  }
+  .detail{
+      position: static;
+      background-color: #EEEEEE;
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+          
+  }
+  .couple{
+      display:flex;
+      flex-direction: column;
+  }
+  .post-code{
+      flex: 2;
+      margin: 0;
+  }
+  h1{
+      
+      font-size: 2rem;
+  }
+  .continue{
+      background-color: orange;
+      color: white;
+      padding: 1rem 2rem ;
+      border: none;
+      border-radius: 1rem;
+      cursor: pointer;
+  }
+}
+
+@media screen and (min-width:577px) and (max-width:768px) {
+  
+  .survey{
+      width: 33%;
+      
+  }
+  
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+  
+  .survey{
+      width: 42%;
+      
+  }
+  
+}

@@ -29,158 +29,166 @@
     <main>
         <section class="information">
             <form action=".result.html">
-                <div class="container">
+                <div class="form-top">         <!-- kapattım -->
                     <h3>
                         Contact information
                     </h3>
                     <div class="mail">
                         <label for="email">Email</label>
+                        <div class="iclass">
                         <input type="email" name="email" id="Email" placeholder="Enter your email" >
-                        <i class="fas fa-envelope"></i>
+                        <i class="fas fa-envelope"></i></div>
                     </div>
 
-            <div class="box2">
-                <label for="phone">Phone</label>
-                <br>
-                <input type="text" name="phone number" id="phone number" placeholder="Enter your phone" data-mask="0000 000 00 00">
-                <i class="fas fa-phone-alt"></i>
-            </div>
-            
+                    <div class="phone-number">
+                        <label for="phone">Phone</label>
+                        <div class="iclass">
+                            <input type="text" name="phone number" id="phone" placeholder="Enter your phone" data-mask="0000 000 00 00">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                    </div>
+                </div>
 
-            <header class="head2">
-                <h3>
-                    Shipping address
-                </h3>
-            </header>
+                <div class="form-middle">
+                    <h3>
+                        Shipping address
+                    </h3>
 
-            <div class="box3">
-                    <label for="name">Fullname</label>
-                    <br>
-                    <input type="text" name="name" id="name" placeholder="Enter your Full name" >
-                    <i class="fas fa-user"></i>
-            </div>
+                    <div class="f-name">
+                        <label for="name">Fullname</label>
+                        
+                        <div class="iclass">
+                            <input type="text" name="name" id="name" placeholder="Enter your Full name" >
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
 
-            <div class="box4">
-                <label for="address">Address</label>
-                <br>
-                <input type="text" name="address" id="Address" placeholder="Enter your address">
-                <i class="fas fa-home"></i>
-            </div>
+                    <div class="f-address">
+                        <label for="address">Address</label>
+                        
+                        <div class="iclass">
+                            <input type="text" name="address" id="address" placeholder="Enter your address">
+                            <i class="fas fa-home"></i>
+                        </div>
+                    </div>
 
-            <div class="box5">
-                <label for="city">City</label>
-                <br>
-                <input type="text" name="city" id="city" placeholder="Enter your city">
-                <i class="fas fa-city"></i>
-            </div>
+                    <div class="f-city">
+                        <label for="city">City</label>
+                        
+                        <div class="iclass">
+                            <input type="text" name="city" id="city" placeholder="Enter your city">
+                            <i class="fas fa-city"></i>
+                        </div>    
+                    </div>
 
-            <div class="box">
-                <label for="content">Country</label>
-                <br>
-                <select name="content" id="dropdown">
-                    <option value="country" selected>Turkey</option>
-                    <option value="country" >Germany</option>
-                    <option value="country">USA</option>
-                    
-                </select>
-                <i class="fas fa-globe-europe"></i>
-            </div>
+                    <div class="form-bottom">
+                        <div class="f-country">
+                            <label for="content">Country</label>
+                            <div class="iclass">
+                            <select name="content" id="dropdown" >
+                                <option value="country" selected>Turkey</option>
+                                <option value="country" >Germany</option>
+                                <option value="country">USA</option>
+                                <option value="country">Canada</option>
+                                <option value="country">UK</option>
+                            </select>
+                            
+                                <i class="fas fa-globe-europe"></i>
+                            </div>
+                        </div>
 
-            <div class="box">
-            <label for="Post Code">Post Code</label>
-                <br>
-                <input type="number" name="Post Coder" id="post code" placeholder="Enter your postal code">
-                <i class="fas fa-mail-bulk"></i>
-                <br>
-                <input type="checkbox" name="check" id="check" value="information">
-                <label for="check"> See this information next time</label>
-                
-            </div>
+                        <div class="f-post">
+                            <label for="Post Code">Post Code</label>
+                            
+                            <div class="iclass">
+                                <input type="number" name="Post Coder" id="post code" placeholder="Enter your postal code">
+                                <i class="fas fa-mail-bulk"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        <div class="f-check">
+                            <input type="checkbox" name="check" id="check" value="information">
+                            <label for="check"> See this information next time</label>
+                        </div>                       
+                        
 
-            <div class="form-submit">
-                <button type="submit" id="form-button">Continue</button>
-            </div>
-
-
-
-                </form>
-
-
-            
-
-
-
-
+                        <div class="f-submit">
+                            <button type="submit" id="form-button">Continue</button>
+                        </div>
+            </form>
         </section>
         
 
 
         
 
-    </div>
+    
 
 
 
 
-<div class="right">
-    <div class="product">
-        <div class="image">
+<section class="product">
+    <div class="material">
+        <div class="img">
             <img src="./picture/photo1.png" alt="">
         </div>
         <div class="p-info">
             <h4>Vintage Backbag</h4>
-            <span class="new-price">$54.99</span>
-            <span class="old-price"><small>$94.99</small></span>
+            <span class="first-price">$54.99</span>
+            <span class="second-price"><small>$94.99</small></span>
 
-            <div class="inc-dis">
+            <div class="time">
                 <button class="minus"><i class="fas fa-minus"></i></button>
-                <div class="num">1</div>
+                <span class="one">1</span>
+                <button class="plus"><i class="fas fa-plus"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="material">
+        <div class="img">
+            <img src="./picture/photo2.png" alt="">
+        </div>
+        <div class="p-info">
+            <h4>Levi Shoes</h4>
+            <span class="first-price">$74.99</span>
+            <span class="second-price"><small>$124.99</small></span>
+
+            <div class="time">
+                <button class="minus"><i class="fas fa-minus"></i></button>
+                <span class="one">1</span>
                 <button class="plus"><i class="fas fa-plus"></i></button>
 
             </div>
         </div>
-
-<div class="product">
-    <div class="image">
-        <img src="./picture/photo2.png" alt="">
     </div>
-    <div class="p-info">
-        <h4>Levi Shoes</h4>
-        <span class="new-price">$74.99</span>
-        <span class="old-price"><small>$124.99</small></span>
 
-        <div class="inc-dis">
-            <button class="minus"><i class="fas fa-minus"></i></button>
-            <div class="num">1</div>
-            <button class="plus"><i class="fas fa-plus"></i></button>
 
+<!-- 
+    <br>
+    <hr>
+ -->
+        <div class="total">
+            <p>Shipping</p>
+            <p>$19</p>
         </div>
-    </div>
-
-    
-</div>
-
-
-<br>
-<hr>
-<div class="total">
-    <p>Shipping</p>
-    <p>$19</p>
-</div>
-<hr>
-<div class="total">
-    <p>Total</p>
-    <p>$148.98</p>
-</div>
-</div> 
         
+        <div class="total">
+            <p>Total</p>
+            <p>$148.98</p>
+        </div>
+</section>
 
 
-</div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
 
+
+
 </main>
+
+
 </body>
 </html>
