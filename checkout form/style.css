@@ -7,6 +7,14 @@
     /* font-family: ; */
 }
 
+.container{
+  width: 60rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
 .right{
   position: absolute;
   background-color: #f8e8e8;
