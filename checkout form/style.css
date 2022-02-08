@@ -154,10 +154,7 @@ hr{
   margin: 1rem;
 }
 
-/* footer{
-  text-align: center;
-  margin-top: 2rem;
-} */
+
 #form-button{
   background-color: orange;
   color: white;
@@ -169,70 +166,3 @@ hr{
 
 }
 
-@media screen and (max-width:575px) {
-  *{
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 14px;
-      font-weight: 600;
-      letter-spacing: 0.3px;
-      
-  }
-  main{
-      width: 90%;
-      margin: auto;
-      display: flex;
-      flex-direction:column-reverse;
-  }
-  .survey{
-      width: 100%;
-      margin-bottom: 2rem;
-  }
-  .detail{
-      position: static;
-      background-color: #EEEEEE;
-      border-radius: 1rem;
-      margin-bottom: 2rem;
-          
-  }
-  .couple{
-      display:flex;
-      flex-direction: column;
-  }
-  .post-code{
-      flex: 2;
-      margin: 0;
-  }
-  h1{
-      
-      font-size: 2rem;
-  }
-  .continue{
-      background-color: orange;
-      color: white;
-      padding: 1rem 2rem ;
-      border: none;
-      border-radius: 1rem;
-      cursor: pointer;
-  }
-}
-
-@media screen and (min-width:577px) and (max-width:768px) {
-  
-  .survey{
-      width: 33%;
-      
-  }
-  
-}
-
-@media screen and (min-width:769px) and (max-width:992px) {
-  
-  .survey{
-      width: 42%;
-      
-  }
-  
-}
