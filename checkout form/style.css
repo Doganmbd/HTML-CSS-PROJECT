@@ -13,8 +13,8 @@ header{
 }
 
 main {
-  /* width:100%; */
-  /* margin: auto; */
+  width:60%;
+  margin: auto;
   display: flex;
   justify-content: space-between;      /* kenarları 0 olacak şekilde köşeye yaslarım */
 }
@@ -164,7 +164,7 @@ hr{
   border: none;
   border-radius: 1rem;
   cursor: pointer;
-  
+  float: right;
 
 }
 
